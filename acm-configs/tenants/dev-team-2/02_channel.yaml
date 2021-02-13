@@ -1,0 +1,8 @@
+apiVersion: apps.open-cluster-management.io/v1
+kind: Channel
+metadata:
+  name: acm-poc-devteam1-gitops-channel
+  namespace: acm-poc-devteam2-gitops
+spec:
+  pathname: 'https://github.com/tosin2013/acm-multi-tenancy-dev-team.git'
+  type: GitHub
