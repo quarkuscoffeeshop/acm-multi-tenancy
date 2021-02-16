@@ -1,0 +1,15 @@
+apiVersion: app.k8s.io/v1beta1
+kind: Application
+metadata:
+  name: application   
+  namespace: acm-poc-devteam1-gitops
+spec:
+  selector:
+    matchExpressions:
+      - key: deployment  
+        operator: In
+        values:
+        - application
+  componentKinds:
+  - group: app.ibm.com/v1alpha1
+    kind: Subscription

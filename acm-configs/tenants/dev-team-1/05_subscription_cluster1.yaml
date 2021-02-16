@@ -1,0 +1,16 @@
+apiVersion: apps.open-cluster-management.io/v1
+kind: Subscription
+metadata:
+  name: acm-poc-devteam1-gitops-app
+  namespace: acm-poc-devteam1-gitops
+  labels:
+    deployment: application
+  annotations:
+    apps.open-cluster-management.io/github-branch: main
+    apps.open-cluster-management.io/github-path: overlay/dev
+spec:
+  channel:  acm-poc-devteam1-gitops/acm-poc-devteam1-gitops-channel
+  placement: 
+    placementRef: 
+      kind: PlacementRule
+      name: cluster1
