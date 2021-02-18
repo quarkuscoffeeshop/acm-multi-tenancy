@@ -6,7 +6,7 @@ metadata:
   labels:
     deployment: application
   annotations:
-    apps.open-cluster-management.io/github-branch: main
+    apps.open-cluster-management.io/github-branch: HelmChartInflationGenerator
     apps.open-cluster-management.io/github-path: overlay/staging
 spec:
   channel:  acm-poc-devteam1-gitops/acm-poc-devteam1-gitops-channel
