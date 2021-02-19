@@ -55,7 +55,7 @@ spec:
     type: ManagedClusterConditionAvailable
   clusterSelector:
     matchExpressions:
-      - key: clusterid
+      - key: environment
         operator: In
         values:
           - production

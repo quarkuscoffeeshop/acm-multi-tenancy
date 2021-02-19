@@ -1,9 +1,11 @@
 apiVersion: apps.open-cluster-management.io/v1
 kind: PlacementRule
 metadata:
-  name: cluster1
+  name: towhichcluster
   namespace: acm-poc-devteam1-gitops
+  labels:
+    app: acm-poc-devteam1-gitops-app
 spec:
   clusterSelector:
     matchLabels:
-      clusterid: cluster1
+      environment: staging
