@@ -1,7 +1,7 @@
 apiVersion: apps.open-cluster-management.io/v1
 kind: PlacementRule
 metadata:
-  name: towhichcluster
+  name: devcluster
   namespace: acm-poc-devteam3-gitops
   labels:
     app: acm-poc-devteam3-gitops-app
