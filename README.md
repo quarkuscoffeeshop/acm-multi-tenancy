@@ -3,6 +3,7 @@
 ![ACM image](images/image1.png)
 ## Policies
 ---
+**Policy management** is a requirement when multiple clusters. When we apply policies to a cluster we gain consistent governance as a result. Governance and risk are used to define the process that are used to managed the secuirty and compliance of the target cluster. We will be practicing managing governance and risk towards are target clusters. Example policys can be found in the [Policy Collection](https://github.com/open-cluster-management/policy-collection) repo. 
 
 
 ## Tenants
