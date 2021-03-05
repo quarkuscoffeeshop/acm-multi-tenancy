@@ -2,9 +2,9 @@ apiVersion: apps.open-cluster-management.io/v1
 kind: PlacementRule
 metadata:
   name: prodcluster
-  namespace: acm-poc-devteam1-gitops
+  namespace: quarkuscoffeeshop-devteam1-gitops
   labels:
-    app: acm-poc-devteam1-gitops-app
+    app: quarkuscoffeeshop-devteam1-gitops-app
 spec:
   clusterSelector:
     matchLabels:

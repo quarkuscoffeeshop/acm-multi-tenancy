@@ -2,4 +2,4 @@
 apiVersion: v1
 kind: Namespace
 metadata:
-  name: acm-poc-devteam2-gitops
+  name: quarkuscoffeeshop-devteam2-gitops

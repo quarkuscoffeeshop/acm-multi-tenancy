@@ -21,7 +21,7 @@ spec:
           severity: low
           namespaceSelector:
             exclude: ["kube-*"]
-            include: ["acm-poc-devteam*"]
+            include: ["quarkuscoffeeshop-devteam*"]
           object-templates:
             - complianceType: musthave
               objectDefinition:

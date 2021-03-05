@@ -7,4 +7,4 @@ metadata:
   namespace: acm-poc-devteam1-gitops
 spec:
   type: HelmRepo
-  pathname: https://vladimir-babichev.github.io/acm-poc-devteam1-charts/
+  pathname: https://quarkuscoffeeshop.github.io/quarkuscoffeeshop-helm/

@@ -1,14 +1,14 @@
 apiVersion: app.k8s.io/v1beta1
 kind: Application
 metadata:
-  name: acm-poc-devteam2-gitops-app
-  namespace: acm-poc-devteam2-gitops
+  name: quarkuscoffeeshop-devteam2-gitops-app
+  namespace: quarkuscoffeeshop-devteam2-gitops
   labels:
-    app: acm-poc-devteam2-gitops-app
+    app: quarkuscoffeeshop-devteam2-gitops-app
 spec:
   componentKinds:
   - group: apps.open-cluster-management.io
     kind: Subscription
   selector:
     matchLabels:
-      app: acm-poc-devteam2-gitops-app
+      app: quarkuscoffeeshop-devteam2-gitops-app
