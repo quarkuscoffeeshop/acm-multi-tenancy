@@ -11,7 +11,7 @@
 **Multi-tenant** cluster is shared by multiple users an or workloads. This is referred to as **"tenants"**. An the operator of mutli-teant clusters we can isolate tenants from each other. In this repo we are practicing the isolation of three dev teams on three different environment. 
 The isolation of the environment is managed by namespaces or projects. The Policies of the target clusters are managed by ACM. The Application is managed by ACM and the applications are packaged as Helm Charts. 
 
-After creating the required application definitions for each dev team. Please have dev team fork the [acm-multi-tenancy-dev-team](https://github.com/tosin2013/acm-multi-tenancy-dev-team). Repo in order to push applicatio to ACM and target clusters. 
+After creating the required application definitions for each dev team. Please have dev team fork the [acm-multi-tenancy-dev-team](https://github.com/quarkuscoffeeshop/acm-multi-tenancy-dev-team). Repo in order to push applicatio to ACM and target clusters. 
 
 ### Commands for dev-team-1
 ---
