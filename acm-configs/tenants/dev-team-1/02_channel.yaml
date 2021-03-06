@@ -1,10 +1,10 @@
 apiVersion: apps.open-cluster-management.io/v1
 kind: Channel
 metadata:
-  name: acm-poc-devteam1-gitops-channel
+  name: quarkuscoffeeshop-devteam1-gitops-channel
   labels:
-    app: acm-poc-devteam1-gitops-app
-  namespace: acm-poc-devteam1-gitops
+    app: quarkuscoffeeshop-devteam1-gitops-app
+  namespace: quarkuscoffeeshop-devteam1-gitops
 spec:
   type: HelmRepo
   pathname: https://quarkuscoffeeshop.github.io/quarkuscoffeeshop-helm/
