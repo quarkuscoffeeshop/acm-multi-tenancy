@@ -7,4 +7,4 @@ metadata:
   namespace: quarkuscoffeeshop-devteam3-gitops
 spec:
   type: HelmRepo
-  pathname: https://vladimir-babichev.github.io/quarkuscoffeeshop-devteam1-charts/
+  pathname: https://quarkuscoffeeshop.github.io/quarkuscoffeeshop-helm/
